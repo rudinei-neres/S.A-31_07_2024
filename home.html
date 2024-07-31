@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styleHOME.css">
+</head>
+<body>
+    <img src="esgoto.jpg" alt="Background Image" class="background-image">
+      
+    <h1 class="o">Home Page</h1>
+
+    <h2>Mensagem do ADM:</h2>
+    
+    <div class="adm">
+        <p id="mensagem1"></p>
+    </div>
+    
+
+       
+    <h2><p id="nomeUsuario"></p></h2>   
+     <div class="question">
+        <label>1. Você gostaria de ter uma rede de esgoto instalada na sua rua?</label><br>
+        <input type="text" id="pergunta1" placeholder="Digite sua Respostas"> <br>
+        <label>2. Quais são os principais problemas que você enfrenta atualmente devido à falta de esgoto na sua rua? </label><br>
+        <input type="text" id="pergunta2" placeholder="Digite sua Respostas"> <br>
+        <label>3. Você estaria disposto(a) a pagar uma taxa adicional para a instalação e manutenção de uma rede de esgoto na sua rua?</label><br>
+        <input type="text" id="pergunta3" placeholder="Digite sua Respostas"> <br>
+        <label>4. Você acredita que a instalação de uma rede de esgoto na sua rua traria melhorias para a sua qualidade de vida?</label><br>
+        <input type="text" id="pergunta4" placeholder="Digite sua Respostas"> <br>
+    </div>
+
+    <button  onclick="respostas()">Enviar Respostas</button>
+    <button  onclick="editar_respostas()">Editar Respostas</button>
+    <button  onclick="logout()">Deslogar</button>
+     
+     
+          
+
+    <script src="script2.js"></script>
+</body>
+</html>
